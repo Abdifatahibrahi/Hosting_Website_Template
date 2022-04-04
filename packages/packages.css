@@ -1,0 +1,66 @@
+
+main{
+    margin-top: 30px;
+}
+
+.package{
+    width: 80%;
+    border: 4px solid darkgreen;
+    border-left: none;
+    margin-top: 16px;
+}
+
+.package:hover,
+.package:active{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
+    border-color:  rgb(255, 0, 119) 
+}
+
+.package a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.package__subtitle{
+    color: gray;
+}
+
+.package__info{
+    padding: 16px;
+    border: 1px solid rgb(28, 39, 28);
+    font-size: 20px;
+    color: green;
+    background-color: white;
+}
+
+
+#plus{
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free{
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid darkgreen;;
+}
+
+#free:hover,
+#free:active{
+    border-left: 4px solid rgb(255, 0, 119) ;
+}
+
+
+#premium{
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .package__title{
+    color: white;
+}
+
+#premium .package__subtitle{
+    color: #bbbb;
+}

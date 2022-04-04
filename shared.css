@@ -1,0 +1,154 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-header{
+    width: 100%;
+    background-color: rgb(15, 228, 15);
+    padding: 8px 16px;
+}
+
+.main-header__brand{
+    font-size: 22px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.main-header > div{
+    display: inline-block;
+    
+}
+
+.main-nav{
+    width: calc(100% - 74px);
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+.main-nav__items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item a::last-child:hover{
+    border-bottom: none;
+}
+
+.main-nav__item--cta a {
+    background-color: rgb(241, 26, 177);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    background-color: white;
+    color: rgb(241, 26, 177);
+}
+
+#product_over-view{
+    background: url('freedom.jpg');
+    width: 100%;
+    height: 528px;
+}
+
+
+
+
+.button{
+    background-color: rgb(47, 80, 47);
+    color: white;
+    font: inherit;
+    padding: 8px;
+    border: 1.5px solid green;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.main-footer{
+    background-color: black;
+    padding: 36px;
+    margin-top: 48px;
+
+}
+
+.main-footer__links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: wheat;
+}
